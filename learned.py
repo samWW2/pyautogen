@@ -17,8 +17,8 @@ teachable_agent = TeachableAgent(
     llm_config=llm_config,
     teach_config={
         "reset_db": False,  # Use True to force-reset the memo DB, and False to use an existing DB.
-        "path_to_db_dir": "./tmp/interactive/teachable_agent_db"  # Can be any path.
-    }
+        "path_to_db_dir": "C:\Users\DAGlabs RMR\autogen\teachable_agent_db"  # Can be any path.
+    } 
 )
 
 user = UserProxyAgent("user", human_input_mode="ALWAYS")
